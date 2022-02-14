@@ -15,7 +15,7 @@ public class HelloWorldController {
      */
 
      
-   @GetMapping("HelloWorld")
+    @RequestMapping(method = RequestMethod.GET, path = "/HelloWorld")
     public String GetHelloWorld(){
         System.out.print("call made from client");
 
