@@ -1,12 +1,10 @@
 package com.DeepFriedUnicorns.Teaching_Resource_Website;
 
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://teaching-resource-client.herokuapp.com/")
 public class HelloWorldController {
 
     /**
@@ -15,7 +13,7 @@ public class HelloWorldController {
      *
      * @return returns a string to test if the client is able to use the API
      */
-    @GetMapping("/HelloWorld")
+    @RequestMapping(method = RequestMethod.GET, path = "/HelloWorld")
     public String GetHelloWorld(){
         System.out.print("call made from client");
 
