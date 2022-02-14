@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Teaching Resource Website.iml" filepath="$PROJECT_DIR$/.idea/Teaching Resource Website.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Backend/Teaching_Resource_Website.iml" filepath="$PROJECT_DIR$/Backend/Teaching_Resource_Website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend.iml" filepath="$PROJECT_DIR$/Backend.iml" />
     </modules>
   </component>
 </project>
