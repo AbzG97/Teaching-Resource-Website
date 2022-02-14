@@ -15,7 +15,7 @@ public class HelloWorldController {
      */
 
      
-   @GetMapping("https://teaching-resource-client.herokuapp.com/HelloWorld")
+   @GetMapping("HelloWorld")
     public String GetHelloWorld(){
         System.out.print("call made from client");
 
