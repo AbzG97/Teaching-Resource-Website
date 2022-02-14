@@ -13,8 +13,8 @@ public class HelloWorldController {
      *
      * @return returns a string to test if the client is able to use the API
      */
-//    @RequestMapping(method = RequestMethod.GET, path = "/HelloWorld")
-    @GetMapping("/HelloWorld")
+    @RequestMapping(method = RequestMethod.GET, path = "/HelloWorld")
+//    @GetMapping("/HelloWorld")
     public String GetHelloWorld(){
         System.out.print("call made from client");
 
