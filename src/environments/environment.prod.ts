@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  https://teaching-resource-test-website.herokuapp.com/
+  baseUrl: "https://teaching-resource-test-website.herokuapp.com/"
 };
