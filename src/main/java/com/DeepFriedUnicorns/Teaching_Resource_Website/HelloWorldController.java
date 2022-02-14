@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://teaching-resource-client.herokuapp.com/")
 public class HelloWorldController {
 
     /**
